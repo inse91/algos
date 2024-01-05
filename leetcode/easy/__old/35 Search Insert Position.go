@@ -1,4 +1,4 @@
-package easy
+package __old
 
 func searchInsert(nums []int, target int) int {
 
