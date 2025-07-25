@@ -6,7 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-// https://leetcode.com/problems/number-of-strings-that-appear-as-substrings-in-word/description/
+// https://leetcode.com/problems/number-of-senior-citizens
 
 func Test(t *testing.T) {
 	cases := []struct {
