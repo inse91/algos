@@ -10,22 +10,22 @@ import (
 
 func Test(t *testing.T) {
 	cases := []struct {
-		name string
-		time int
+		name  string
+		time  int
 		delay int
 		res   int
 	}{
 		{
-			name: "1",
-			time: 15,
+			name:  "1",
+			time:  15,
 			delay: 5,
-			res: 20,
+			res:   20,
 		},
 		{
-			name: "2",
-			time: 13,
+			name:  "2",
+			time:  13,
 			delay: 11,
-			res: 0,
+			res:   0,
 		},
 	}
 	for _, c := range cases {
