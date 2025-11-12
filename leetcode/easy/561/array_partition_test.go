@@ -37,7 +37,7 @@ func TestArrayPartition(t *testing.T) {
 
 func arrayPairSum(nums []int) int {
 	slices.Sort(nums)
-	
+
 	var sum int
 	for i := 0; i < len(nums); i += 2 {
 		sum += nums[i]
